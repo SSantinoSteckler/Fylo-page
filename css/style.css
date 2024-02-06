@@ -14,9 +14,12 @@ body {
   justify-content: space-around;
   gap: 30px;
   padding: 50px 30px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+}
+.header-index nav {
+  display: none;
 }
 
 .header-index nav ul {
@@ -383,8 +386,11 @@ body {
   background-color: #2755d4b9;
 }
 
-/* @media screen and (min-width: 768px) {
-} */
+@media screen and (min-width: 768px) {
+  .header-index nav {
+    display: block;
+  }
+}
 
 @media screen and (min-width: 1020px) {
   .footer-index {
